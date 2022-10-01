@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorbox</title>
+    <link rel="stylesheet" href="./css/colorbox.css">
+</head>
+<body>
+    <a class="galerija" href="./slike/slika1.jpg">Slika 1</a>
+    <a class="galerija" href="./slike/slika2.jpg">Slika 2</a>
+    <a class="galerija" href="./slike/slika3.jpg">Slika 3</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js" integrity="sha512-DAVSi/Ovew9ZRpBgHs6hJ+EMdj1fVKE+csL7mdf9v7tMbzM1i4c/jAvHE8AhcKYazlFl7M8guWuO3lDNzIA48A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(".galerija").colorbox({
+            rel:'grupa1',
+            scalePhotos: true,
+            maxWidth: '1000px'
+        });
+    </script>
+</body>
+</html>
